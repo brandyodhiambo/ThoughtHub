@@ -1,7 +1,7 @@
 package com.brandyodhiambo.ThoughtHub.payload.response;
 
 import com.brandyodhiambo.ThoughtHub.model.Photo;
-import com.brandyodhiambo.ThoughtHub.model.user.User;
+import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.payload.UserDateAuditPayload;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;

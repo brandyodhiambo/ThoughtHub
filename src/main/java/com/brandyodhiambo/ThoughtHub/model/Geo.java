@@ -1,8 +1,8 @@
-package com.brandyodhiambo.ThoughtHub.model.user;
+package com.brandyodhiambo.ThoughtHub.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.brandyodhiambo.ThoughtHub.model.audit.UserDateAudit;
-import jakarta.persistence.*;
+
+import javax.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

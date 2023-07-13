@@ -1,4 +1,4 @@
-package com.brandyodhiambo.ThoughtHub.model.role;
+package com.brandyodhiambo.ThoughtHub.model;
 
 public enum RoleName {
 	ROLE_ADMIN,

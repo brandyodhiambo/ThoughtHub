@@ -1,6 +1,6 @@
 package com.brandyodhiambo.ThoughtHub.payload.request;
 
-import jakarta.validation.constraints.NotBlank;
+import javax.validation.constraints.NotBlank;
 import lombok.Data;
 
 

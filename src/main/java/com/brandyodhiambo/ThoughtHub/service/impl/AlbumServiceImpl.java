@@ -3,8 +3,8 @@ package com.brandyodhiambo.ThoughtHub.service.impl;
 import com.brandyodhiambo.ThoughtHub.exception.ThoughtHubApiException;
 import com.brandyodhiambo.ThoughtHub.exception.ResourceNotFoundException;
 import com.brandyodhiambo.ThoughtHub.model.Album;
-import com.brandyodhiambo.ThoughtHub.model.role.RoleName;
-import com.brandyodhiambo.ThoughtHub.model.user.User;
+import com.brandyodhiambo.ThoughtHub.model.RoleName;
+import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.payload.response.AlbumResponse;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
 import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
@@ -24,6 +24,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Service;
+
+import javax.transaction.Transactional;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -44,10 +46,10 @@ public class AlbumServiceImpl implements AlbumService {
 	@Autowired
 	private UserRepository userRepository;
 
-	@Autowired
-	private ModelMapper modelMapper;
+	private ModelMapper modelMapper = new ModelMapper();
 
 	@Override
+	@Transactional
 	public PagedResponse<AlbumResponse> getAllAlbums(int page, int size) {
 		AppUtils.validatePageNumberAndSize(page, size);
 

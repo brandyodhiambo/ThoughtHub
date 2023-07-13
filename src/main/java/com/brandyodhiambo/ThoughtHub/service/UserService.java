@@ -1,6 +1,6 @@
 package com.brandyodhiambo.ThoughtHub.service;
 
-import com.brandyodhiambo.ThoughtHub.model.user.User;
+import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.payload.*;
 import com.brandyodhiambo.ThoughtHub.payload.request.InfoRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;

@@ -4,7 +4,7 @@ import com.brandyodhiambo.ThoughtHub.exception.BadRequestException;
 import com.brandyodhiambo.ThoughtHub.exception.ResourceNotFoundException;
 import com.brandyodhiambo.ThoughtHub.exception.UnauthorizedException;
 import com.brandyodhiambo.ThoughtHub.model.Todo;
-import com.brandyodhiambo.ThoughtHub.model.user.User;
+import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
 import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.repository.TodoRepository;

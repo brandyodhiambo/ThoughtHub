@@ -1,12 +1,12 @@
 package com.brandyodhiambo.ThoughtHub.repository;
 
 import com.brandyodhiambo.ThoughtHub.exception.ResourceNotFoundException;
-import com.brandyodhiambo.ThoughtHub.model.user.User;
+import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
-import jakarta.validation.constraints.NotBlank;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import javax.validation.constraints.NotBlank;
 import java.util.Optional;
 
 @Repository

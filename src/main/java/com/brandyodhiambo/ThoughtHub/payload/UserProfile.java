@@ -1,7 +1,7 @@
 package com.brandyodhiambo.ThoughtHub.payload;
 
-import com.brandyodhiambo.ThoughtHub.model.user.Address;
-import com.brandyodhiambo.ThoughtHub.model.user.Company;
+import com.brandyodhiambo.ThoughtHub.model.Address;
+import com.brandyodhiambo.ThoughtHub.model.Company;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

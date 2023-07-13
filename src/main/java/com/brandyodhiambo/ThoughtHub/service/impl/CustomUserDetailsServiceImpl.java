@@ -1,15 +1,17 @@
 package com.brandyodhiambo.ThoughtHub.service.impl;
 
-import com.brandyodhiambo.ThoughtHub.model.user.User;
+import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.repository.UserRepository;
 import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.CustomUserDetailsService;
-import jakarta.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import javax.transaction.Transactional;
 
 
 @Service

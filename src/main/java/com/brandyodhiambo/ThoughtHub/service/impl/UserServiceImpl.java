@@ -1,12 +1,12 @@
 package com.brandyodhiambo.ThoughtHub.service.impl;
 
 import com.brandyodhiambo.ThoughtHub.exception.*;
-import com.brandyodhiambo.ThoughtHub.model.role.Role;
-import com.brandyodhiambo.ThoughtHub.model.role.RoleName;
-import com.brandyodhiambo.ThoughtHub.model.user.Address;
-import com.brandyodhiambo.ThoughtHub.model.user.Company;
-import com.brandyodhiambo.ThoughtHub.model.user.Geo;
-import com.brandyodhiambo.ThoughtHub.model.user.User;
+import com.brandyodhiambo.ThoughtHub.model.Role;
+import com.brandyodhiambo.ThoughtHub.model.RoleName;
+import com.brandyodhiambo.ThoughtHub.model.Address;
+import com.brandyodhiambo.ThoughtHub.model.Company;
+import com.brandyodhiambo.ThoughtHub.model.Geo;
+import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.payload.*;
 import com.brandyodhiambo.ThoughtHub.payload.request.InfoRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;

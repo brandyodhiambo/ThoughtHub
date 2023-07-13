@@ -1,8 +1,8 @@
-package com.brandyodhiambo.ThoughtHub.model.audit;
+package com.brandyodhiambo.ThoughtHub.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import jakarta.persistence.Column;
-import jakarta.persistence.MappedSuperclass;
+import javax.persistence.Column;
+import javax.persistence.MappedSuperclass;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.springframework.data.annotation.CreatedBy;

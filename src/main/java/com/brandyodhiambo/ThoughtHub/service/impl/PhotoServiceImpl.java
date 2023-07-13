@@ -4,7 +4,7 @@ import com.brandyodhiambo.ThoughtHub.exception.ResourceNotFoundException;
 import com.brandyodhiambo.ThoughtHub.exception.UnauthorizedException;
 import com.brandyodhiambo.ThoughtHub.model.Album;
 import com.brandyodhiambo.ThoughtHub.model.Photo;
-import com.brandyodhiambo.ThoughtHub.model.role.RoleName;
+import com.brandyodhiambo.ThoughtHub.model.RoleName;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
 import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.payload.request.PhotoRequest;

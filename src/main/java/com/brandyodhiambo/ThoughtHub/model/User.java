@@ -1,17 +1,11 @@
-package com.brandyodhiambo.ThoughtHub.model.user;
+package com.brandyodhiambo.ThoughtHub.model;
 
-import com.brandyodhiambo.ThoughtHub.model.Album;
-import com.brandyodhiambo.ThoughtHub.model.Comment;
-import com.brandyodhiambo.ThoughtHub.model.Post;
-import com.brandyodhiambo.ThoughtHub.model.Todo;
-import com.brandyodhiambo.ThoughtHub.model.audit.DateAudit;
-import com.brandyodhiambo.ThoughtHub.model.role.Role;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.*;
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
+import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

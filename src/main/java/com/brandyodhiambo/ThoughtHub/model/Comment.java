@@ -1,19 +1,13 @@
 package com.brandyodhiambo.ThoughtHub.model;
 
-import com.brandyodhiambo.ThoughtHub.model.audit.UserDateAudit;
-import com.brandyodhiambo.ThoughtHub.model.user.User;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
+import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 @EqualsAndHashCode(callSuper = true)
 @Entity

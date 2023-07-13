@@ -1,9 +1,8 @@
 package com.brandyodhiambo.ThoughtHub.model;
 
-import com.brandyodhiambo.ThoughtHub.model.audit.UserDateAudit;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
