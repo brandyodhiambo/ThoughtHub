@@ -5,7 +5,7 @@ import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.payload.request.PhotoRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.PhotoResponse;
 import com.brandyodhiambo.ThoughtHub.security.CurrentUser;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.PhotoService;
 import com.brandyodhiambo.ThoughtHub.utils.AppConstants;
 import org.springframework.beans.factory.annotation.Autowired;

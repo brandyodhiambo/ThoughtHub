@@ -4,7 +4,7 @@ import com.brandyodhiambo.ThoughtHub.exception.UnauthorizedException;
 import com.brandyodhiambo.ThoughtHub.model.Category;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
 import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 import org.springframework.http.ResponseEntity;
 
 public interface CategoryService {

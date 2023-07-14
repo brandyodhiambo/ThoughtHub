@@ -11,7 +11,6 @@ import com.brandyodhiambo.ThoughtHub.payload.request.PhotoRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.PhotoResponse;
 import com.brandyodhiambo.ThoughtHub.repository.AlbumRepository;
 import com.brandyodhiambo.ThoughtHub.repository.PhotoRepository;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.PhotoService;
 import com.brandyodhiambo.ThoughtHub.utils.AppConstants;
 import com.brandyodhiambo.ThoughtHub.utils.AppUtils;

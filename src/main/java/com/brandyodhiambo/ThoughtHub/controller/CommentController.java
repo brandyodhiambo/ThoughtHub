@@ -5,7 +5,7 @@ import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
 import com.brandyodhiambo.ThoughtHub.payload.request.CommentRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.security.CurrentUser;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.CommentService;
 import com.brandyodhiambo.ThoughtHub.utils.AppConstants;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -11,7 +11,6 @@ import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.payload.request.AlbumRequest;
 import com.brandyodhiambo.ThoughtHub.repository.AlbumRepository;
 import com.brandyodhiambo.ThoughtHub.repository.UserRepository;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.AlbumService;
 import com.brandyodhiambo.ThoughtHub.utils.AppUtils;
 import org.modelmapper.ModelMapper;

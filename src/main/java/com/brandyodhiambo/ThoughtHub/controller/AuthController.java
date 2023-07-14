@@ -7,13 +7,12 @@ import com.brandyodhiambo.ThoughtHub.model.Role;
 import com.brandyodhiambo.ThoughtHub.model.RoleName;
 import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
-import com.brandyodhiambo.ThoughtHub.payload.response.JwtAuthenticationResponse;
 import com.brandyodhiambo.ThoughtHub.payload.request.LoginRequest;
 import com.brandyodhiambo.ThoughtHub.payload.request.SignUpRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.JwtResponse;
 import com.brandyodhiambo.ThoughtHub.repository.RoleRepository;
 import com.brandyodhiambo.ThoughtHub.repository.UserRepository;
-import com.brandyodhiambo.ThoughtHub.service.UserDetailsImpl;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -62,7 +61,7 @@ public class AuthController {
 		SecurityContextHolder.getContext().setAuthentication(authentication);
 		String jwt = jwtUtils.generateJwtToken(authentication);
 
-		UserDetailsImpl userDetails = (UserDetailsImpl) authentication.getPrincipal();
+		UserPrincipal userDetails = (UserPrincipal) authentication.getPrincipal();
 		List<String> roles = userDetails.getAuthorities().stream()
 				.map(GrantedAuthority::getAuthority)
 				.collect(Collectors.toList());

@@ -16,7 +16,6 @@ import com.brandyodhiambo.ThoughtHub.repository.CategoryRepository;
 import com.brandyodhiambo.ThoughtHub.repository.PostRepository;
 import com.brandyodhiambo.ThoughtHub.repository.TagRepository;
 import com.brandyodhiambo.ThoughtHub.repository.UserRepository;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.PostService;
 import com.brandyodhiambo.ThoughtHub.utils.AppConstants;
 import com.brandyodhiambo.ThoughtHub.utils.AppUtils;

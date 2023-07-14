@@ -8,7 +8,7 @@ import com.brandyodhiambo.ThoughtHub.payload.request.InfoRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
 import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.security.CurrentUser;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.AlbumService;
 import com.brandyodhiambo.ThoughtHub.service.PostService;
 import com.brandyodhiambo.ThoughtHub.service.UserService;

@@ -4,7 +4,7 @@ import com.brandyodhiambo.ThoughtHub.model.Comment;
 import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
 import com.brandyodhiambo.ThoughtHub.payload.request.CommentRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 
 public interface CommentService {
 

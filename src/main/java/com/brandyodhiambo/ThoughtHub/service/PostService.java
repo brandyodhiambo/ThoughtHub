@@ -5,7 +5,7 @@ import com.brandyodhiambo.ThoughtHub.payload.response.ApiResponse;
 import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.payload.request.PostRequest;
 import com.brandyodhiambo.ThoughtHub.payload.response.PostResponse;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 
 public interface PostService {
 

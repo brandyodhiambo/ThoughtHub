@@ -2,7 +2,6 @@ package com.brandyodhiambo.ThoughtHub.service.impl;
 
 import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.repository.UserRepository;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.CustomUserDetailsService;
 
 import org.springframework.beans.factory.annotation.Autowired;

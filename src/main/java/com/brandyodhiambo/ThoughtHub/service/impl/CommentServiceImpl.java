@@ -12,7 +12,6 @@ import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.repository.CommentRepository;
 import com.brandyodhiambo.ThoughtHub.repository.PostRepository;
 import com.brandyodhiambo.ThoughtHub.repository.UserRepository;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.CommentService;
 import com.brandyodhiambo.ThoughtHub.utils.AppUtils;
 import org.springframework.beans.factory.annotation.Autowired;

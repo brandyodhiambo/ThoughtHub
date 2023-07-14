@@ -2,7 +2,7 @@ package com.brandyodhiambo.ThoughtHub.repository;
 
 import com.brandyodhiambo.ThoughtHub.exception.ResourceNotFoundException;
 import com.brandyodhiambo.ThoughtHub.model.User;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

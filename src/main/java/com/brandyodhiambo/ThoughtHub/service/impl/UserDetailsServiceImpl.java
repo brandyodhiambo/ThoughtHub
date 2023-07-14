@@ -1,6 +1,5 @@
 package com.brandyodhiambo.ThoughtHub.service.impl;
 
-import com.brandyodhiambo.ThoughtHub.service.UserDetailsImpl;
 import com.brandyodhiambo.ThoughtHub.model.User;
 import com.brandyodhiambo.ThoughtHub.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +21,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         User user = userRepository.findByUsername(username)
                 .orElseThrow(() -> new UsernameNotFoundException("User Not Found with username: " + username));
 
-        return UserDetailsImpl.build(user);
+        return UserPrincipal.create(user);
     }
 
 }

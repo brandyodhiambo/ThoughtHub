@@ -1,7 +1,7 @@
 package com.brandyodhiambo.ThoughtHub.config.jwt;
 
 
-import com.brandyodhiambo.ThoughtHub.service.UserDetailsImpl;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +23,7 @@ public class JwtUtils {
 
     public String generateJwtToken(Authentication authentication) {
 
-        UserDetailsImpl userPrincipal = (UserDetailsImpl) authentication.getPrincipal();
+        UserPrincipal userPrincipal = (UserPrincipal) authentication.getPrincipal();
 
         return Jwts.builder()
                 .setSubject((userPrincipal.getUsername()))

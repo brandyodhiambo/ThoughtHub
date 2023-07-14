@@ -8,7 +8,7 @@ import com.brandyodhiambo.ThoughtHub.payload.response.PagedResponse;
 import com.brandyodhiambo.ThoughtHub.payload.response.PhotoResponse;
 import com.brandyodhiambo.ThoughtHub.payload.request.AlbumRequest;
 import com.brandyodhiambo.ThoughtHub.security.CurrentUser;
-import com.brandyodhiambo.ThoughtHub.security.UserPrincipal;
+import com.brandyodhiambo.ThoughtHub.service.impl.UserPrincipal;
 import com.brandyodhiambo.ThoughtHub.service.AlbumService;
 import com.brandyodhiambo.ThoughtHub.service.PhotoService;
 import com.brandyodhiambo.ThoughtHub.utils.AppConstants;

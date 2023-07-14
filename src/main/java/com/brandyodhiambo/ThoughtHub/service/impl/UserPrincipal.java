@@ -1,4 +1,4 @@
-package com.brandyodhiambo.ThoughtHub.security;
+package com.brandyodhiambo.ThoughtHub.service.impl;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.brandyodhiambo.ThoughtHub.model.User;
