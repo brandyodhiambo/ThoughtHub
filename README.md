@@ -21,6 +21,8 @@ create database thoughthub
 + open `src/main/resources/application.properties`
 + change `spring.datasource.username` and `spring.datasource.password` as per your mysql installation
 
+> Make sure your database is on
+
 **4. Run the app using maven**
 
 ```bash
@@ -116,18 +118,18 @@ Test them using postman or any other rest client.
 ##### <a id="signup">Sign Up -> /api/auth/signup</a>
 ```json
 {
-	"firstName": "Leanne",
-	"lastName": "Graham",
-	"username": "leanne",
+	"firstName": "brandy",
+	"lastName": "kay",
+	"username": "brandy-kay",
 	"password": "password",
-	"email": "leanne.graham@gmail.com"
+	"email": "brandy.kay@gmail.com"
 }
 ```
 
 ##### <a id="signin">Log In -> /api/auth/signin</a>
 ```json
 {
-	"usernameOrEmail": "leanne",
+	"usernameOrEmail": "brandy-kay",
 	"password": "password"
 }
 ```
@@ -135,25 +137,25 @@ Test them using postman or any other rest client.
 ##### <a id="usercreate">Create User -> /api/users</a>
 ```json
 {
-	"firstName": "Ervin",
-	"lastName": "Howell",
-	"username": "ervin",
+	"firstName": "john",
+	"lastName": "doe",
+	"username": "john-doe",
 	"password": "password",
-	"email": "ervin.howell@gmail.com",
+	"email": "john.doe@gmail.com",
 	"address": {
-		"street": "Victor Plains",
-		"suite": "Suite 879",
-		"city": "Wisokyburgh",
-		"zipcode": "90566-7771",
+		"street": "Tom Mboya",
+		"suite": "Suite 100",
+		"city": "Nairobi",
+		"zipcode": "0100",
 		"geo": {
 			"lat": "-43.9509",
 			"lng": "-34.4618"
 		}
 	},
-	"phone": "010-692-6593 x09125",
-	"website": "http://erwinhowell.com",
+	"phone": "0712345678",
+	"website": "http://johndoe.com",
 	"company": {
-		"name": "Deckow-Crist",
+		"name": "Down-Crist",
 		"catchPhrase": "Proactive didactic contingency",
 		"bs": "synergize scalable supply-chains"
 	}
@@ -163,27 +165,27 @@ Test them using postman or any other rest client.
 ##### <a id="userupdate">Update User -> /api/users/{username}</a>
 ```json
 {
-	"firstName": "Ervin",
-	"lastName": "Howell",
-	"username": "ervin",
+	"firstName": "john",
+	"lastName": "Doe",
+	"username": "john-doe",
 	"password": "updatedpassword",
-	"email": "ervin.howell@gmail.com",
+	"email": "john.doe@gmail.com",
 	"address": {
-		"street": "Victor Plains",
-		"suite": "Suite 879",
-		"city": "Wisokyburgh",
-		"zipcode": "90566-7771",
+		"street": "Moi Avenue",
+		"suite": "Suite 0100",
+		"city": "Nairobi",
+		"zipcode": "01000",
 		"geo": {
 			"lat": "-43.9509",
 			"lng": "-34.4618"
 		}
 	},
 	"phone": "010-692-6593 x09125",
-	"website": "http://erwinhowell.com",
+	"website": "http://johnDoe.com",
 	"company": {
-		"name": "Deckow-Crist",
-		"catchPhrase": "Proactive didactic contingency",
-		"bs": "synergize scalable supply-chains"
+		"name": "Denmack",
+		"catchPhrase": "production of the app",
+		"bs": "blah,blah"
 	}
 }
 ```
@@ -191,14 +193,14 @@ Test them using postman or any other rest client.
 ##### <a id="userinfoupdate">Update User Profile -> /api/users/setOrUpdateInfo</a>
 ```json
 {
-	"street": "Douglas Extension",
-	"suite": "Suite 847",
-	"city": "McKenziehaven",
-	"zipcode": "59590-4157",
-	"companyName": "Romaguera-Jacobson",
-	"catchPhrase": "Face to face bifurcated interface",
-	"bs": "e-enable strategic applications",
-	"website": "http://ramiro.info",
+	"street": "Moi Avenue",
+	"suite": "Suite 0100",
+	"city": "Nairobi",
+	"zipcode": "01000",
+	"companyName": "Apatmentty",
+	"catchPhrase": "Book apatments",
+	"bs": "E-platform strategic applications",
+	"website": "http://apartment.info",
 	"phone": "1-463-123-4447",
 	"lat": "-68.6102",
 	"lng": "-47.0653"

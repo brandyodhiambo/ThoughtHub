@@ -97,7 +97,7 @@ public class AuthController {
 
 		List<Role> roles = new ArrayList<>();
 
-		if (userRepository.count() == 0) {
+		if (userRepository.count() == 2) {
 			roles.add(roleRepository.findByName(RoleName.ROLE_USER)
 					.orElseThrow(() -> new AppException(USER_ROLE_NOT_SET)));
 			roles.add(roleRepository.findByName(RoleName.ROLE_ADMIN)
