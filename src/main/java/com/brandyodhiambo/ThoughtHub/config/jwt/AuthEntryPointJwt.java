@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-import static com.sun.xml.internal.ws.spi.db.BindingContextFactory.LOGGER;
 
 @Component
 public class AuthEntryPointJwt implements AuthenticationEntryPoint {
