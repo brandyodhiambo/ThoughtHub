@@ -32,6 +32,10 @@ The app will start running at <http://localhost:8089>
 
 ## Explore Rest APIs
 
+Once you run the project successfully, you can access the swagger docs using the following link:
+
+<http://localhost:8089/swagger-ui.html>
+
 The app defines following CRUD APIs.
 
 ### Auth
