@@ -24,7 +24,6 @@ HELP.md
 /.nb-gradle/
 build/
 !**/src/main/**/build/
-!**/src/main/resources/application.properties
 !**/src/test/**/build/
 
 ### VS Code ###
