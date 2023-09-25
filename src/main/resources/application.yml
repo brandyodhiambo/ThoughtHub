@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://thoughthub-db:3307/thoughthub?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://thoughthub-db:3306/thoughthub?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
     username: root
-    password: root
+    password: #yourpassword
   jpa:
     hibernate:
       ddl-auto: none
