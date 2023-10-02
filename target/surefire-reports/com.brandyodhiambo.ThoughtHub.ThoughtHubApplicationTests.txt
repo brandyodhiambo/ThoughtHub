@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.brandyodhiambo.ThoughtHub.ThoughtHubApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.21 s <<< FAILURE! - in com.brandyodhiambo.ThoughtHub.ThoughtHubApplicationTests
+initializationError(com.brandyodhiambo.ThoughtHub.ThoughtHubApplicationTests)  Time elapsed: 0.02 s  <<< ERROR!
+java.lang.Exception: The class com.brandyodhiambo.ThoughtHub.ThoughtHubApplicationTests is not public.
+
+initializationError(com.brandyodhiambo.ThoughtHub.ThoughtHubApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Test class should have exactly one public constructor
+
+initializationError(com.brandyodhiambo.ThoughtHub.ThoughtHubApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method contextLoads() should be public
+
